@@ -1,0 +1,22 @@
+site_name: f0rkznet
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue grey
+    accent: blue
+  font:
+    text: Open Sans
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    # - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+copyright: >
+  Copyright &copy; 2020 - 2022 Nick the Gray
