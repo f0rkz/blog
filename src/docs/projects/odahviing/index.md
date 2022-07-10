@@ -185,8 +185,6 @@ def get_rate(netdata_host, chart):
 
 if __name__ == '__main__':
     while True:
-        #in_rate = get_port_heat(LIBRENMS_PORT)
-        # Moving to netdata to get the info
         if_rate = get_rate('10.250.1.1:19999', 'net.eth8')
         print(if_rate)
         for _ in range(1):
