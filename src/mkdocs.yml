@@ -21,6 +21,7 @@ theme:
 copyright: >
   Copyright &copy; 2020 - 2022 Nick the Gray
 markdown_extensions:
+  - meta
   - attr_list
   - md_in_html
   - pymdownx.highlight:
@@ -28,3 +29,5 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
